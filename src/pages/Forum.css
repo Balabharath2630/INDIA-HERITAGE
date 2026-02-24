@@ -1,0 +1,142 @@
+.forum-page {
+    padding: 60px;
+    background: #f4f0e6;
+    min-height: 100vh;
+  }
+  
+  /* HEADER */
+  .forum-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .forum-header h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+  
+  .forum-header p {
+    max-width: 600px;
+    margin: auto;
+    color: #555;
+  }
+  
+  /* CONVERSATION BOX */
+  .conversation-box {
+    background: #efe6d4;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .conversation-box textarea {
+    width: 100%;
+    height: 100px;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    resize: none;
+    margin: 15px 0;
+  }
+  
+  .conversation-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .light-btn {
+    background: #f4f0e6;
+    border: 1px solid #ccc;
+    padding: 8px 14px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    background: #2e5aac;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .primary-btn:hover {
+    background: #1d4ed8;
+  }
+  
+  /* DISCUSSION HEADER */
+  .discussion-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tabs span {
+    margin-left: 15px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .tabs .active {
+    color: #f59e0b;
+    font-weight: bold;
+  }
+  
+  /* DISCUSSION CARD */
+  .discussion-card {
+    background: #efe6d4;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
+  
+  .user-info {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .user-info img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  .badge {
+    background: #e8e1d3;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  
+  .discussion-text {
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  .discussion-actions span {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  /* LOAD MORE */
+  .load-more {
+    text-align: center;
+  }
+  
+  .load-more button {
+    background: transparent;
+    border: 1px solid #f59e0b;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .load-more button:hover {
+    background: #f59e0b;
+    color: white;
+  }
