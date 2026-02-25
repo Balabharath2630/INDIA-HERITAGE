@@ -225,13 +225,57 @@ function Dashboard() {
         </div>
       )}
 
-      {/* ================= ADMIN ================= */}
-      {activeRole === "admin" && (
-        <div>
-          <h2>Admin Dashboard</h2>
-          <p>Admin controls will appear here.</p>
+{activeRole === "admin" && (
+  <div className="admin-section">
+
+    {/* STATS CARDS */}
+    <div className="admin-stats">
+
+      <div className="stat-card users">
+        <h4>ACTIVE USERS</h4>
+        <h2>492</h2>
+      </div>
+
+      <div className="stat-card pending">
+        <h4>PENDING APPROVAL</h4>
+        <h2>14</h2>
+      </div>
+
+      <div className="stat-card reports">
+        <h4>OPEN REPORTS</h4>
+        <h2 className="danger">2</h2>
+      </div>
+
+      <div className="stat-card health">
+        <h4>PLATFORM HEALTH</h4>
+        <h2 className="success">Optimal</h2>
+      </div>
+
+    </div>
+
+    {/* ADMIN OPERATIONS */}
+    <div className="admin-operations">
+
+      <div>
+        <h2>Admin Operations</h2>
+        <p>Full management of users, roles, and content.</p>
+
+        <div className="quick-links">
+          <button>User Audit Logs</button>
+          <button>Global Announcements</button>
+          <button>Security Settings</button>
+          <button>Media Storage</button>
         </div>
-      )}
+      </div>
+
+      <button className="launch-btn">
+        Launch Admin Portal
+      </button>
+
+    </div>
+
+  </div>
+)}
 
     </div>
   );
